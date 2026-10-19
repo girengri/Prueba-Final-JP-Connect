@@ -35,13 +35,13 @@ Para garantizar la calidad de los datos, se diseñó un pipeline ETL completo:
 *   *Tiempos de Resolución:* Se identificó que la categoría **[Falla Técnica]** tiene el mayor tiempo de resolución promedio.
 *   *Análisis con IA:* Mediante un prompt en ChatGPT, se generó la consulta SQL para identificar el Top 5 de clientes con mayor consumo de GB, permitiendo priorizar su atención.
 
-## 💡 5. Recomendación de Negocio (Storytelling)
+## 💡 5. Recomendación de Negocio
 Basado en el dashboard interactivo:
 > *"La tasa de deserción global es del **20%**. El gráfico evidencia que la mayor carga operativa se debe a **Falla Técnica**. Se recomienda implementar alertas automáticas cuando un ticket de esta categoría supere las 8 horas de resolución, y priorizar a los Top 5 clientes con mayor consumo de API para mitigar la deserción y proteger los ingresos."*
 
 ---
 
-## 🚀 6. Guía de Instalación y Ejecución (Para el Evaluador)
+## 🚀 6. Guía de Instalación y Ejecución
 
 Dado que este es un proyecto de análisis local, sigue estos pasos para replicar el entorno y visualizar el modelo en Power BI:
 
