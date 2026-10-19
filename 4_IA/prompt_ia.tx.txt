@@ -1,0 +1,9 @@
+Actúa como un Data Analyst. Tengo una tabla en MySQL llamada uso_servicios con las columnas id_cliente, mes_evaluado, consultas_api y gigabytes_consumidos. Necesito una consulta SQL que me devuelva el Top 5 de los clientes con el mayor consumo total de GB, mostrando su ID y la suma total
+
+SELECT
+    id_cliente,
+    SUM(gigabytes_consumidos) AS consumo_total_gb
+FROM uso_servicios
+GROUP BY id_cliente
+ORDER BY consumo_total_gb DESC
+LIMIT 5;
