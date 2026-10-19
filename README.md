@@ -6,7 +6,7 @@
 ![Pandas](https://img.shields.io/badge/Pandas-2.0.3-150458?logo=pandas&logoColor=white)
 ![ChatGPT](https://img.shields.io/badge/ChatGPT-00A67E?logo=openai&logoColor=white)
 
-**Autor:** [Giovany Rendon Grisales]  
+**Autor:** Giovany Rendon Grisales 
 **Fecha:** Octubre 2026
 
 ---
@@ -37,7 +37,7 @@ Para garantizar la calidad de los datos, se diseñó un pipeline ETL completo:
 
 ## 💡 5. Recomendación de Negocio (Storytelling)
 Basado en el dashboard interactivo:
-> *"La tasa de deserción global es del **[X]%**. El gráfico evidencia que la mayor carga operativa se debe a **[Falla Técnica]**. Se recomienda implementar alertas automáticas cuando un ticket de esta categoría supere las 8 horas de resolución, y priorizar a los Top 5 clientes con mayor consumo de API para mitigar la deserción y proteger los ingresos."*
+> *"La tasa de deserción global es del **20%**. El gráfico evidencia que la mayor carga operativa se debe a **Falla Técnica**. Se recomienda implementar alertas automáticas cuando un ticket de esta categoría supere las 8 horas de resolución, y priorizar a los Top 5 clientes con mayor consumo de API para mitigar la deserción y proteger los ingresos."*
 
 ---
 
@@ -50,7 +50,7 @@ Dado que este es un proyecto de análisis local, sigue estos pasos para replicar
    ```sql
    CREATE DATABASE IF NOT EXISTS jp_connect_db;
 2. Abre el archivo `1_ETL/etl_jp_connect.py` en tu editor de código (PyCharm, VS Code, etc.).
-3. ⚠️ **IMPORTANTE:** En la línea 8 del script, cambia `'TU_CONTRASEÑA_AQUI'` por la contraseña de tu usuario `root` de MySQL local.
+3. ⚠️ **IMPORTANTE:** En la línea 12 del script, cambia `'TU_CONTRASEÑA_AQUI'` por la contraseña de tu usuario `root` de MySQL local.
 4. Ejecuta el script de Python. Esto creará automáticamente las 3 tablas y cargará los datos limpios.
 
 ### Paso 2: Configurar Power BI
